@@ -79,7 +79,7 @@ function SideNavBottomSection({onFileCreate,totalFiles}:any) {
           </DialogClose>
         </DialogFooter>
   </DialogContent>:
-  <PricingDialog/>
+ 
 </Dialog>
         {/* Progress Bar */}
 
