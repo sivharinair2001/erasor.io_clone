@@ -55,20 +55,14 @@ function Editor({onSaveTrigger,fileId,fileData}:{onSaveTrigger:any,fileId:any,fi
              */
 
             tools:{
-                header: {
-                    class: Header,
-                    shortcut: 'CMD+SHIFT+H',
-                    config:{
-                        placeholder:'Enter a Header'
-                    }
-                  },
-                  list: {
-                    class: List,
-                    inlineToolbar: true,
-                    config: {
-                      defaultStyle: 'unordered'
-                    }
-                  },
+                header: Header,
+                //   list: {
+                //     class: List,
+                //     inlineToolbar: true,
+                //     config: {
+                //       defaultStyle: 'unordered'
+                //     }
+                //   },
                   checklist: {
                     class: Checklist,
                     inlineToolbar: true,
