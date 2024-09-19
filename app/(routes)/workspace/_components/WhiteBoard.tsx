@@ -22,7 +22,7 @@ function Canvas({onSaveTrigger,fileId,fileData}:{onSaveTrigger:any,fileId:any,fi
    {fileData&& <Excalidraw 
     theme='light'
     initialData={{
-        elements:fileData?.whiteboard&&JSON.parse(fileData?.whiteboard)
+        elements:fileData?.whiteBoard&&JSON.parse(fileData?.whiteBoard)
     }}
     onChange={(excalidrawElements, appState, files)=>
         setWhiteBoardData(excalidrawElements)}
