@@ -59,7 +59,7 @@ function SideNavBottomSection({onFileCreate,totalFiles}:any) {
   <Button className='w-full bg-blue-600 hover:bg-blue-700 justify-start mt-3'>
   New File</Button>
   </DialogTrigger>
-  {totalFiles<Contants.MAX_FREE_FILES?
+  
   <DialogContent>
     <DialogHeader>
       <DialogTitle>Create New File</DialogTitle>
@@ -79,7 +79,7 @@ function SideNavBottomSection({onFileCreate,totalFiles}:any) {
           </DialogClose>
         </DialogFooter>
   </DialogContent>:
-  <PricingDialog/>}
+  <PricingDialog/>
 </Dialog>
         {/* Progress Bar */}
 
