@@ -74,7 +74,7 @@ function Editor({onSaveTrigger,fileId,fileData}:{onSaveTrigger:any,fileId:any,fi
                     inlineToolbar: true,
                   },
                   paragraph: Paragraph,
-                  warning: Warning,
+            
             },
            
             holder: 'editorjs',
